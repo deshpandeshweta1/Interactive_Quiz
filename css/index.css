@@ -1,0 +1,53 @@
+
+.startPage{
+  background-color: #9ACD32;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 1000px;
+    height: 450px;
+    margin-top:20px;
+    margin-left:150px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.startq{
+  background-color: orange;
+    height: 40px;
+    margin-left: 380px;
+    margin-top: 80px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.imgquiz{
+  width:380px;
+  height: 120px;
+  margin-left:460px;
+  margin-right: 450px;
+}
+
+#lblToday{
+  text-align:center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left:250px;
+  padding-top:50px;
+}
+#lblCategory{
+  text-align:center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top:50px;
+}
+.lblnote{
+  text-align:center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left:200px;
+}

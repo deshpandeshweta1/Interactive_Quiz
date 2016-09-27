@@ -1,0 +1,177 @@
+
+
+*{
+margin: 0px;
+padding: 0px;
+color: black;
+}
+
+.align{
+  margin-left: 25px;
+  background-color: #9ACD32;
+  font-size: 18px;
+}
+#result{
+    /*background-color: #9ACD32;
+display: none;
+margin: 50px 0 0 420px;*/
+display: none;
+background-color: #9ACD32;
+  border-radius: 15px;
+  border: 1px solid white;
+  width: 1000px;
+  height: 450px;
+  margin-top:20px;
+  margin-left:180px;
+  padding-top: 50px;
+}
+#lblheading{
+  font-weight: bold;
+  font-size: 40px;
+
+  margin-top: 80px;
+  text-align: center;
+}
+
+/*#quiz_form{
+  background-color: #9ACD32;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 1000px;
+    height: 450px;
+    margin-top:20px;
+    margin-left:150px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+*/
+.startPage{
+  background-color: #9ACD32;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 1000px;
+    height: 450px;
+    margin-top:20px;
+    margin-left:150px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.nextq {
+    background-color: orange;
+    height: 40px;
+    margin: 20px 0 0 30px;
+    width: 170px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+#answer{
+text-align: left;
+width: 600px;
+font-weight: bold;
+margin-left: 50px;
+}
+.highlight {
+ color : black;
+ font-size: 26px;
+}
+
+
+#question{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+  visibility: visible;
+  display: block;
+}
+
+#question.show{
+  opacity: 1;
+  position: static;
+  transition: 1s opacity;
+ visibility: visible;
+ display: block;
+}
+
+#question.hide{
+  visibility: hidden;
+  display: none;
+}
+
+.hide1{
+  display: none;
+}
+
+.imgquiz{
+  width:380px;
+  height: 120px;
+  margin-left:460px;
+  margin-right: 450px;
+}
+
+
+#QuestionWrap{
+  background-color: #9ACD32;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 1000px;
+    height: 450px;
+    margin-top:20px;
+    margin-left:150px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.txtinput{
+  width: 200px;
+  height: 20px;
+}
+.timerdemo{
+  text-align:center;
+  font-size: 25px;
+}
+
+#lblnote{
+  text-align:center;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left:200px;
+  padding-top:50px;
+}
+.stopq {
+    background-color: orange;
+    height: 30px;
+    width: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.pauseq {
+    background-color: orange;
+    height: 30px;
+    width: 40px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+.continueq {
+    background-color: orange;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.timerdemo{
+  font-weight: bold;
+  font-size: 24px;
+  color:black;
+  padding-left: 45px;
+}
+
+#timer{
+margin-left:400px;
+}
